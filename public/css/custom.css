@@ -1,0 +1,768 @@
+.settitle {
+    display: inline-block;
+    padding: 13px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    color: black;
+    padding-left: 0px;
+}
+.setlititle {
+    font-size: 23px;
+    color: #727475;
+    font-weight: 900;
+}
+.setcoursereamorbtn {
+    padding: 14px;
+}
+.setcoursep {
+    display: list-item;
+    margin-left: 23px;
+}
+.footerlinks {
+    list-style: none;
+    line-height: 3;
+    padding: 0px;
+}
+.footercontact {
+    list-style: none;
+    line-height: 3.5;
+    padding: 0px;
+}
+.setfooteradd {
+    margin-top: -45px;
+    padding-left: 31px;
+}
+
+.setnavbackground {
+    background: white;
+}
+.nicdark_navigation_5 li a {
+    color: #000;
+}
+.nicdark_top_20 {
+    top: 0px;
+}
+p,
+a,
+input,
+label,
+.nicdark_second_font,
+.nicdark_datepicker,
+textarea {
+    font-family: "Montserrat", sans-serif !important;
+}
+.setfontabout {
+    font-size: 37px !important;
+}
+.setadd {
+    color: #727475 !important;
+    font-size: 13px !important;
+}
+/* .setaddltd{
+    padding-left: 78px;
+}
+.setmumbai{
+    padding-left: 78px;
+} */
+.setphone {
+    padding-right: 0px;
+}
+.setnum {
+    padding-left: 5px;
+}
+.setpmapbottom {
+    padding-top: 0px !important;
+}
+.setnumcolor {
+    color: #727475;
+}
+select {
+    outline: 0;
+    border: 1px solid #f1f1f1;
+    padding: 10px 20px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: grey;
+    font-family: "Montserrat", sans-serif !important;
+}
+.navphoneimg {
+    margin-top: -96px;
+    margin-bottom: -9px;
+    padding-right: 11px;
+}
+.setphonenum {
+    font-size: 21px;
+    color: black;
+}
+.setchooseicon {
+    padding-right: 10px;
+}
+.setaboutchoos {
+    color: #000;
+    font-weight: bold !important;
+}
+.setgalleryimg {
+    padding: 8px;
+}
+.setgallerytwo {
+    padding-top: 25px;
+}
+.setflag {
+    padding-left: 7px;
+}
+.settitlecourse {
+    padding-top: 21px;
+}
+p {
+    font-size: 18px !important;
+}
+.setcopyright {
+    font-size: 14px !important;
+}
+.setcoursename {
+    margin-top: -24px;
+}
+.setcoursenamepadd {
+    padding-left: 31px;
+}
+.scroll-to-top {
+    border-radius: 50px;
+}
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+    background: skyblue;
+    display: none;
+    border-radius: 2;
+    transition: all 300ms ease;
+}
+.setuparrow {
+    padding-top: 9px;
+    width: 31px;
+}
+.setberadcrumbiconpadd {
+    padding-right: 12px !important;
+}
+.imggallery {
+    padding-bottom: 20px;
+    object-fit: cover;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: none;
+}
+
+/* Slides */
+.mySlides {
+    display: none;
+    padding: 54px !important;
+    padding-bottom: 30px !important;
+    text-align: center;
+}
+.mySlides p {
+    padding-top: 36px !important;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+/* .active, .dot:hover {
+    background-color: #717171;
+  } */
+
+/* Add an italic font style to all quotes */
+/* q {font-style: italic;} */
+q {
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Add a blue color to the author */
+.author {
+    color: skyblue;
+}
+.setbgcolor {
+    background-color: #f9f9f9 !important;
+}
+.setfontconum1 {
+    font-size: 40px !important;
+}
+.settestpadd {
+    padding-top: 47px;
+}
+.nicdark_navigation_5 > ul > li:after {
+    content: "|";
+    display: inline-block;
+    margin: 0 15px;
+    color: #b7b7b7;
+}
+.nicdark_navigation_copyright > ul > li:after {
+    content: "|";
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 14px;
+    color: #5f5f5f;
+}
+.setcountry {
+    padding-left: 14px;
+}
+input {
+    color: black;
+}
+select:focus {
+    color: #000 !important;
+}
+
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    list-style: none;
+}
+.page-item {
+    padding: 13px;
+    border-radius: 12px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.active,
+.dot:hover {
+    background-color: #40a0d2 !important;
+    color: #fff !important;
+}
+
+.error-msg-text {
+    color: #40a0cf !important;
+}
+.border-btn-c {
+    border: 1px solid #40a0cf !important;
+}
+.dispalt-file {
+    display: none !important;
+}
+
+/* .setcv{
+    margin-bottom: -32px;
+    
+}
+.setcvinput{
+    padding-left: 100px;
+} */
+.nicdark_navigation_5_sidebar li a {
+    color: #000;
+    font-size: 16px;
+}
+.nicdark_navigation_5_sidebar > ul li > ul.nicdark_sub_menu li a {
+    color: #000;
+    font-size: 14px;
+}
+.nicdark_height_250 {
+    height: 131px;
+}
+.nicdark_font_size_60 {
+    font-size: 40px;
+    line-height: 60px;
+}
+.nicdark_padding_10 {
+    padding: 10px;
+    padding-top: 0px;
+}
+.set-head-t {
+    padding-top: 41px !important;
+    padding-bottom: 11px;
+}
+
+.imageCenter {
+    text-align: center !important;
+    padding-top: 20px;
+}
+.set-my-c-p{
+    padding-left: 6px !important;
+}
+.set-stress{
+    object-fit: cover !important;
+}
+.set-ans-t{
+    padding-bottom: 9px !important;
+}
+
+
+
+
+/* ipad media query */
+
+@media only screen and (max-width: 991px) {
+    .setmob {
+        background-image: url("../img/parallax/mobbanner.jpg");
+    }
+    .nicdark_height_600 {
+        height: 356px !important;
+    }
+}
+
+/* ipad and mobile media query */
+
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+    .nicdark_bg_green {
+        background-color: #fff !important;
+    }
+    .set-arrow-svg {
+        width: 11px !important;
+        position: relative !important;
+        left: 152px !important;
+    }
+    .nicdark_bg_green {
+        background-color: #fff !important;
+        padding-left: 20px;
+        padding-top: 79px;
+        padding-right: 20px;
+    }
+    .line-menu-m {
+        border-top: 1px solid #63ccf0;
+        opacity: 1 !important;
+        top: 11px !important;
+        left: 0px !important;
+        visibility: visible !important;
+        border-bottom: 1px solid #63ccf0;
+    }
+    .line-menu-mm {
+        opacity: 1 !important;
+        top: 11px !important;
+        left: 0px !important;
+        visibility: visible !important;
+        border-bottom: 1px solid #63ccf0;
+    }
+    .line-menu-mma {
+        opacity: 1 !important;
+        top: -3px !important;
+        left: 0px !important;
+        border-top: 1px solid #63ccf0;
+        border-bottom: 1px solid #63ccf0 !important;
+    }
+    .padding-m-phone {
+        padding-top: 31px !important;
+        text-align: center;
+    }
+    .galler-add-m-view {
+        width: 49% !important;
+        height: auto !important;
+    }
+    .setgalleryimg {
+        padding: 0px !important;
+    }
+
+    .setmenuiconipad {
+        padding-top: 28px;
+        padding-right: 14px;
+    }
+    .setmobnav > ul > li {
+        display: block;
+    }
+    .setmobnav > ul > li > a {
+        text-transform: none;
+    }
+    .setdropdown {
+        font-size: 20px !important;
+    }
+    .setwhonavmob {
+        padding-bottom: 1px !important;
+    }
+    .setwhynavmob {
+        padding-top: 1px !important;
+    }
+    .setmobcloseicon {
+        top: 25px !important;
+    }
+    .setgalleryimgipad {
+        width: 98%;
+        padding-bottom: 33px;
+    }
+    .setmobmap {
+        width: 100%;
+    }
+    .bg-img-b {
+        height: 241px !important;
+    }
+    .set-title-c {
+        position: relative;
+        top: -46px;
+    }
+    .custom-d-hei {
+        height: 200px;
+    }
+
+    .remove-hei-c {
+        height: 0px;
+    }
+    .set-b-t-f {
+        font-size: 35px;
+    }
+    .set-contact-num-f {
+        font-size: 30px !important;
+    }
+}
+
+/* Only Mobile Media Query*/
+
+@media only screen and (max-width: 479px) and (min-width: 320px) {
+    /* .setmobcontainer {
+    width: 400px !important;
+} */
+    .nicdark_container {
+        width: 90% !important;
+    }
+    .nicdark_height_600 {
+        height: 529px !important;
+    }
+    .setmobnav > ul > li {
+        display: block;
+    }
+    .setmobnav > ul > li > a {
+        text-transform: none;
+    }
+    .setmenuicon {
+        margin-top: -69px;
+    }
+    .setmobmap {
+        width: 100%;
+    }
+    .setdropdown {
+        font-size: 20px !important;
+    }
+    .setaddltd {
+        padding-left: unset;
+    }
+    .setmumbai {
+        padding-left: unset;
+    }
+    .setmobfontsizenum {
+        font-size: 33px;
+    }
+    .setbottomline {
+        line-height: 19px;
+    }
+    .setbottomlinepadd {
+        padding-top: 5px;
+    }
+    .setdoingmob {
+        font-size: 30px !important;
+    }
+
+    .setwhonavmob {
+        padding-bottom: 1px !important;
+    }
+    .setwhynavmob {
+        padding-top: 1px !important;
+    }
+    .nicdark_bg_green {
+        background-color: #fff !important;
+        padding-left: 20px;
+        padding-top: 79px;
+        padding-right: 20px;
+    }
+    .line-menu-m {
+        border-top: 1px solid #63ccf0;
+        opacity: 1 !important;
+        top: 11px !important;
+        left: 0px !important;
+        visibility: visible !important;
+        border-bottom: 1px solid #63ccf0;
+        
+}
+.line-menu-mm{
+    opacity: 1 !important;
+    top: 11px !important;
+    left: 0px !important;
+    visibility: visible !important;
+    border-bottom: 1px solid #63ccf0;
+}
+.line-menu-mma{
+    opacity: 1 !important;
+    top: -3px !important;
+    left: 0px !important;
+    border-top: 1px solid #63ccf0;
+    border-bottom: 1px solid #63ccf0;
+    
+}
+.set-arrow-svg
+{
+    width: 11px !important;
+    position: relative !important;
+    left: 152px !important;
+}
+
+
+.setmobcloseicon{
+    top: 25px !important;
+}
+.setfontabout {
+    font-size: 27px !important;
+}
+.setaboutmobpadd{
+    height: 6px !important;
+}
+.setgalleryimgmob{
+    width: 45%;
+    padding-bottom: 14px;
+    height: 21%;
+    object-fit: contain;
+}
+.setsinglecoursefont{
+    font-size: 54px !important;
+}
+.setabsecondparamob{
+    margin-top: -33px;
+}
+.-img{
+    height: 200px !important;
+}
+.setlineheight{
+    line-height: initial !important;
+}
+.setbreacrumbheight{
+    line-height: 1.5;
+}
+.setmapupmob{
+    height: 0px !important;
+}
+.setbtnwidth{
+    width: 91%; 
+    text-align: center;
+}
+.setcontactbtn{
+    width: 87%; 
+    text-align: center;
+}
+.mySlides {
+    padding: unset;
+}
+.prev, .next{
+display: block;
+}
+.settestpadd{
+    padding-top: 0px;
+}
+.setcarrermobwidth{
+    width: 100%;  
+}
+.setincarees{
+    padding-left: 0px;
+}
+.padding-m-phone{
+    padding-top: 31px !important;
+    text-align: center;
+
+}
+.galler-add-m-view{
+    width: 49% !important;
+    height: auto !important;
+}
+.setgalleryimg {
+    padding: 0px !important;
+}
+.bg-img-b{
+    height: 241px !important;
+}
+.set-title-c{
+    position: relative;
+    top: -46px;
+}
+.custom-d-hei{
+    height: 200px;
+}
+.remove-hei-c{
+    height: 0px;
+}
+
+.set-contact-num-f{
+    font-size: 30px !important;
+}
+.custom-w-ca{
+    width: 47% !important;
+}
+
+
+    .setmobcloseicon {
+        top: 25px !important;
+    }
+    .setfontabout {
+        font-size: 27px !important;
+    }
+    .setaboutmobpadd {
+        height: 6px !important;
+    }
+    .setgalleryimgmob {
+        width: 94%;
+        padding-bottom: 30px;
+    }
+    .setsinglecoursefont {
+        font-size: 54px !important;
+    }
+    .set-b-t-f{
+        font-size: 35px !important;
+    }
+    .setabsecondparamob {
+        margin-top: -33px;
+    }
+    .setsinglecourseimgmob {
+        height: 200px !important;
+    }
+    .setlineheight {
+        line-height: initial !important;
+    }
+    .setbreacrumbheight {
+        line-height: 1.5;
+    }
+    .setmapupmob {
+        height: 0px !important;
+    }
+    .setbtnwidth {
+        width: 91%;
+        text-align: center;
+    }
+    .setcontactbtn {
+        width: 87%;
+        text-align: center;
+    }
+    .mySlides {
+        padding: unset;
+    }
+    .prev,
+    .next {
+        display: block;
+    }
+    .next {
+        position: absolute;
+        right: -15px;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev{
+        position: absolute;
+        left: -15px;
+        border-radius: 3px 0 0 3px
+    }
+    /* Slides */
+.mySlides {
+    display: none;
+    padding: 14px !important;
+    padding-bottom: 30px !important;
+    text-align: center;
+}
+
+    .prev, .next {
+
+        padding: 6px;
+    }
+    .settestpadd {
+        padding-top: 0px;
+    }
+    .setcarrermobwidth {
+        width: 100%;
+    }
+    .setincarees {
+        padding-left: 0px;
+    }
+    .padding-m-phone {
+        padding-top: 31px !important;
+        text-align: center;
+    }
+    .galler-add-m-view {
+        width: 49% !important;
+        height: auto !important;
+    }
+    .setgalleryimg {
+        padding: 0px !important;
+    }
+    .bg-img-b {
+        height: 241px !important;
+    }
+    .set-title-c {
+        position: relative;
+        top: -46px;
+    }
+    .custom-d-hei {
+        height: 200px;
+    }
+    .remove-hei-c {
+        height: 0px;
+    }
+    .set-b-t-f {
+        font-size: 35px;
+    }
+    .set-contact-num-f {
+        font-size: 30px !important;
+    }
+    .custom-w-ca {
+        width: 47% !important;
+    }
+}
+
+/* @media only screen and (min-width: 480px) {
+    .setmob {
+        background-image: url('../img/parallax/mobbanner.png') !important;
+    }
+
+} */
